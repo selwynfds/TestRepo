@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '-wd0n&uqp^!27=m7mwsoao&ue!#%e&5-^3!hggc29#z_p7gy#5'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['wordcount-app.azurewebsites.net']
 
 
 # Application definition
